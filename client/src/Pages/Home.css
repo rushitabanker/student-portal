@@ -1,0 +1,41 @@
+.mainHeading {
+    position: absolute;
+    top: 29%;
+    left: 30%;
+    z-index: 100;
+    color: var(--clr-font-dark);
+    font-size: 80px;
+}
+
+.link_container {
+    background: #fff;
+    padding: 1rem 2rem;
+    z-index: 120;
+    position: absolute;
+    top: 55%;
+    left: 45.5%;
+    border-radius: 20px;
+}
+
+.link_container:hover{
+    cursor: pointer;
+}
+
+.link_container:hover {
+    background: var(--clr-font-dark);
+}
+
+.link_container:hover .link {
+    color: white;
+}
+
+.link {
+    position: relative;
+    top: 40%;
+    z-index: 150;
+    color: var(--clr-font-dark);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}

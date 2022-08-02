@@ -1,0 +1,111 @@
+.register_Container {
+    display: grid;
+    place-items: center;
+    max-width: 90%;
+    padding: 0 2rem;
+    margin: 2rem auto;
+    /* border: 2px solid #0f158b; */
+}
+
+.register_Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.25rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.register_fromControl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.register_label {
+    font-size: 1.1rem;
+    font-family: var(--ff-para);
+    margin-right: 10px;
+}
+
+.register_input {
+    width: 80% !important;
+    height: 30px;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.register_textarea {
+    width: 80% !important;
+    height: 80px;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.register_footer {
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.register_footer .register_btn {
+    cursor: pointer;
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background: #129856;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.register_btn:hover {
+    background: #76f4b5;
+    color: #129856;
+}
+
+.register_p {
+    margin-top: 0.5rem;
+    color: #111;
+}
+
+/* .registerContainer h1{
+    text-align: center;
+}
+.registerFormRow{
+    display: grid;
+}
+.registerLabel{
+    font-size: 1rem;
+    margin: 0.25rem 0;
+    color: #000000;
+}
+.registerInput {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+.registerBtnContainer {
+    display: flex;
+    margin: 0;
+}
+.registerBtn{
+    cursor: pointer;
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background: #129856;
+    border: none;
+}
+.registerLinkText {
+    font-size: 1rem;
+}
+.registerLinkText a {
+    color: darkblue;
+    text-decoration: underline;
+} */

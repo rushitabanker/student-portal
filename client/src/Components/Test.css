@@ -1,0 +1,26 @@
+.test {
+    margin: 0 1rem;
+    /* margin-top: 1rem; */
+}
+.test-table{
+    border-collapse: collapse;
+    margin-top: 2px;
+    width: 100%;
+    outline: 2px black solid;
+}
+.test-table > tr > td, .test-table > tr > th {
+    padding: 0.5rem;
+}
+.test-table tr:nth-child(even){
+    background: #f2f2f2;
+}
+.test-table tr:hover {
+    background-color: #ddd;
+}
+.test-table > tr> th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #04AA6D;
+    color: #fff;
+}
